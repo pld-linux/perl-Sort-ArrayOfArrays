@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sort::ArrayOfArrays was written to sort an arbitrary array of arrays,
 in powerful, different ways.
-	
+
 %description -l pl
 Modu³ Sort::ArrayOfArrays s³u¿y do sortowania tablic tablic na wiele
 ró¿nych sposobów.
@@ -28,7 +28,7 @@ ró¿nych sposobów.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
