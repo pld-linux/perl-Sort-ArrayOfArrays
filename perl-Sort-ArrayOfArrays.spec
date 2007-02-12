@@ -6,7 +6,7 @@
 %define		pdir	Sort
 %define		pnam	ArrayOfArrays
 Summary:	Sort::ArrayOfArrays Perl module
-Summary(pl):	Modu≥ Perla Sort::ArrayOfArrays
+Summary(pl.UTF-8):   Modu≈Ç Perla Sort::ArrayOfArrays
 Name:		perl-Sort-ArrayOfArrays
 Version:	1.00
 Release:	3
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Sort::ArrayOfArrays was written to sort an arbitrary array of arrays,
 in powerful, different ways.
 
-%description -l pl
-Modu≥ Sort::ArrayOfArrays s≥uøy do sortowania tablic tablic na wiele
-rÛønych sposobÛw.
+%description -l pl.UTF-8
+Modu≈Ç Sort::ArrayOfArrays s≈Çu≈ºy do sortowania tablic tablic na wiele
+r√≥≈ºnych sposob√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
