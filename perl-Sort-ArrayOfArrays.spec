@@ -6,7 +6,7 @@
 %define		pdir	Sort
 %define		pnam	ArrayOfArrays
 Summary:	Sort::ArrayOfArrays Perl module
-Summary(pl.UTF-8):   Moduł Perla Sort::ArrayOfArrays
+Summary(pl.UTF-8):	Moduł Perla Sort::ArrayOfArrays
 Name:		perl-Sort-ArrayOfArrays
 Version:	1.00
 Release:	3
