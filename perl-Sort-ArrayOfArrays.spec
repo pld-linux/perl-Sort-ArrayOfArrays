@@ -9,7 +9,7 @@ Summary:	Sort::ArrayOfArrays Perl module
 Summary(pl.UTF-8):	Moduł Perla Sort::ArrayOfArrays
 Name:		perl-Sort-ArrayOfArrays
 Version:	1.00
-Release:	3
+Release:	4
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
