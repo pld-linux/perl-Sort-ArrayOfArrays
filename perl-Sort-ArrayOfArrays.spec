@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Sort
 %define		pnam	ArrayOfArrays
+%include	/usr/lib/rpm/macros.perl
 Summary:	Sort::ArrayOfArrays Perl module
 Summary(pl.UTF-8):	Moduł Perla Sort::ArrayOfArrays
 Name:		perl-Sort-ArrayOfArrays
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	31bb796e6ad39a66a145cecef75b01fd
+URL:		http://search.cpan.org/dist/Sort-ArrayOfArrays/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
