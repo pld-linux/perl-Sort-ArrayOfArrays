@@ -4,7 +4,6 @@
 
 %define		pdir	Sort
 %define		pnam	ArrayOfArrays
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sort::ArrayOfArrays Perl module
 Summary(pl.UTF-8):	Moduł Perla Sort::ArrayOfArrays
 Name:		perl-Sort-ArrayOfArrays
